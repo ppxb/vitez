@@ -13,7 +13,7 @@ withDefaults(defineProps<{
   <div flex="~ col items-center justify-center" h-full>
     <div flex="~ items-center justify-center" text-3xl>
       <a
-        href="https//github.com/ppxb/vitez"
+        href="https://github.com/ppxb/vitez"
         flex="inline gap-2 items-center" mr1
       >
         Vue3 TypeScript Template
@@ -21,7 +21,7 @@ withDefaults(defineProps<{
       <a
         v-if="showVersion"
         href="#"
-        op50 font-mono inline-block translate-y--5 ml1 text-0.6em font-200
+        ml1 inline-block translate-y--5 text-0.6em font-200 font-mono op50
       >
         v{{ version }}
       </a>
